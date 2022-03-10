@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:scaleType="fitCenter"
+        android:padding="48dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_account" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|end" />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|start" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_bedroom_baby_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Gender: "
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|end" />
+
+        <TextView
+            android:id="@+id/genderTV"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|start" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_phone_android_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Mobile: "
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|end" />
+
+        <TextView
+            android:id="@+id/mobileTV"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|start" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_business_center_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Designation: "
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|end" />
+
+        <TextView
+            android:id="@+id/designationTV"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|start" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_verified_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Is Email Verified?: "
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|end" />
+
+        <TextView
+            android:id="@+id/emailVerifiedTV"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center|start" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:text="Logout" />
+
+
+</LinearLayout>
